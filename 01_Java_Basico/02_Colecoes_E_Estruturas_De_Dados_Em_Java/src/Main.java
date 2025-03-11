@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        pedirSorvete(Enums.CHOCOLATE);
+        
+    }
+
+    public static void pedirSorvete(Enums sabor){
+        System.out.println("Você escolheu o sabor " + sabor);
     }
 }
